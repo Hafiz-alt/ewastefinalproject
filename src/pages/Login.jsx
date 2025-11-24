@@ -5,6 +5,7 @@ import { supabase } from "../lib/supabase.js";
 
 
 
+
 export default function Login() {
   const navigate = useNavigate();
   const location = useLocation();
