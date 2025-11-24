@@ -14,7 +14,8 @@ import {
   AlertCircle,
   CheckCircle
 } from 'lucide-react';
-import { supabase } from '../lib/supabase';
+import { supabase } from "../lib/supabase.js";
+;
 
 export default function Profile() {
   const navigate = useNavigate();
