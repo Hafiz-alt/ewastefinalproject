@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { Recycle } from 'lucide-react';
-import { supabase } from "../../lib/supabase.js";
+import { supabase } from "../lib/supabase.js";
+
 
 
 
