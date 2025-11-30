@@ -26,7 +26,9 @@ jobs:
         run: npm install
 
       - name: Build Vite project
-        run: npm run build
+        run: |
+          npm run build
+          cp dist/index.html dist/404.html
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
