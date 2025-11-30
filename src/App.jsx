@@ -12,6 +12,7 @@ import ProductDetail from './pages/marketplace/ProductDetail';
 import SellItem from './pages/marketplace/SellItem';
 import Orders from './pages/marketplace/Orders';
 import Profile from './pages/Profile';
+import VoiceAssistant from './components/VoiceAssistant';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Route path="/marketplace/sell" element={<SellItem />} />
         <Route path="/profile" element={<Profile />} />
       </Routes>
+      <VoiceAssistant />
     </Router>
   );
 }
